@@ -14,6 +14,7 @@ df['inflation_crises'].replace({0:'no crisis', 1:'crisis'}, inplace = True)
 df['banking_crisis'].replace({0:'no crisis', 1:'crisis'}, inplace = True)
 
 import matplotlib.pyplot as plt
+
 # pie chart to show banking crisis
 
 x = df.groupby('banking_crisis').size().plot(kind = 'pie', autopct = '%1.1f%%',
@@ -24,6 +25,7 @@ plt.xlabel('')
 plt.ylabel('')
 plt.show()
 
+# Pie Chart showing the state of independence
 y = df.groupby('independence').size().plot(kind = 'pie', autopct = '%1.1f%%',
                                             explode = ( 0,0.2))
 
@@ -33,16 +35,7 @@ plt.ylabel('')
 plt.show()
 
 
-#z = df.groupby('country')['sovereign_external_debt_default'].mean()
-#print(z)
-
-#df.groupby('country')['sovereign_external_debt_default'].mean().plot(kind = 'bar', color = 'green')
-#plt.title('Debt by country')
-#plt.xlabel('Country')
-#plt.ylabel('Debt')
-#plt.show()
-
-
+# Heat Map
 
 import seaborn
 
@@ -68,7 +61,7 @@ plt.show()
 figure, ax = plt.subplots()
 ax.scatter(df['year'], df['exch_usd'], color = 'purple', s = 30)
 
-ax.set_title('country vs exchange rate usd')
+ax.set_title('Year vs exchange rate usd')
 ax.set_xlabel('year')
 ax.set_ylabel('exchange rate')
 plt.show()

@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 
 
 x = df.groupby('Country').size()
+
 print(x)
 
 x = df.groupby('Country').size().plot(kind = 'pie', autopct = '%1.1f%%')
@@ -22,6 +23,9 @@ plt.title('Transaction by Country')
 plt.xlabel('')
 plt.ylabel('')
 plt.show()
+
+
+
 
 
 
