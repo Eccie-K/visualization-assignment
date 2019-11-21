@@ -54,7 +54,7 @@ The data has the following columns:
 
 
 
-</h5>The data has been visualized as follows:</h5>
+<h5>The data has been visualized as follows:</h5>
 
 - Two Pi charts  showing state of banking crisis and state of independence
 - A heat map showing correlation in sovereign external debt, gross domestic product weighted default  and inflation annual consumer price index
@@ -64,13 +64,12 @@ The data has the following columns:
 
 <h2>MACHINE LEARNING</h2>
 
-<h5> Data set used:<h5>
+<h5> Data set used:</h5>
 african_crises.csv
 
 - Two subsets used – exch_usd, inflation_annual_cpi
 - Method applied: Clustering
-- Imported Kmeans from sklearn.cluster
-- Created two clusters and used Kmeans as the model for training and predicting.
+- Imported Kmeans from sklearn.cluster for clustering
 - Centronoids for calculating the mean for clusters
 - Generated an excel file to show the two columns.
 
