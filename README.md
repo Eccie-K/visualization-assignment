@@ -6,9 +6,9 @@ This project project uses two data sets. All the data sets have been visualized 
 
 <h2>VISUALIZATION</h2>
 
-<h3>Data sets used:</h3>
+<h3>Data sets used for data visualization:</h3>
 
-<h4>1.online_retail.csv</h4>
+<h4>1.online_retail.csv file</h4>
 This data set has information for online retail transactions for various countries for a store in the United Kingdom. It shows the number of transactions made by individuals from specified countries.
 
 The data has the following columns:
@@ -31,7 +31,7 @@ The data has the following columns:
 - A heat map that shows correlation in StockCode, Quantity, Price, Customer ID, Country
 - A histogram showing distribution of price vs Quantity
 
-<h4>2. african_crises.csv</h4>
+<h4>2. african_crises.csv file</h4>
 
 The data shows the state of economy of thirteen African countries between the year 1870 to 2013.
 The data has the following columns:
@@ -63,8 +63,8 @@ The data has the following columns:
 
 <h2>MACHINE LEARNING</h2>
 
-<h5> Data set used:</h5>
-african_crises.csv
+<h5> Data set used for machine learning:</h5>
+african_crises.csv file
 
 - Two subsets used – exch_usd, inflation_annual_cpi
 - Method applied: Clustering
