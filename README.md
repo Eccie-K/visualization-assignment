@@ -74,5 +74,6 @@ african_crises.csv
 - Generated an excel file to show the two columns.
 
 
-
-
+  exch_usd  inflation_annual_cpi
+0  43.181605          8.438741e+01
+1   0.002000          2.198970e+07

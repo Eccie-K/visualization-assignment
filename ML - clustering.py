@@ -29,7 +29,7 @@ print(dataframe)
 # who is this cluster
 #adding a column at the end
 subset['label'] = model.labels_
-subset = subset[subset['label'] == 3]
+subset = subset[subset['label'] == 2]
 print(subset)
 
 #generating excel worksheet
