@@ -1,5 +1,6 @@
-<h2>PROJECT DESCRIPTION.</h2>
 <h2>DATA VISUALIZATION AND MACHINE LEARNING</h2>
+<h2>PROJECT DESCRIPTION </h2>
+This is a data visualization and machine learning project. It applies data visualization and machine learning models and tools.<br>
 The data used was obtained from kaggle.com
 This project project uses two data sets. All the data sets have been visualized and presented in either plots, charts or graphs whereas one data set has been used for machine learning purpose.
 
