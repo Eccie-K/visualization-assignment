@@ -1,15 +1,15 @@
-#PROJECT DESCRIPTION.
-#DATA VISUALIZATION AND MACHINE LEARNING
+<h2>PROJECT DESCRIPTION.</h2>
+<h2>DATA VISUALIZATION AND MACHINE LEARNING</h2>
 
 This project project uses two data sets. All the data sets have been visualized and presented in either plots, charts or graphs whereas one data set has been used for machine learning purpose.
 
-#DATA SETS USED.
+<h2>DATA SETS USED.</h2>
 
-#VISUALIZATION
+<h2>VISUALIZATION</h2>
 
-The data sets used are as follows:
+<h5>Data sets used:</h5>
 
-#1.online_retail.csv
+<h3>1.online_retail.csv</h3>
 This data set has information for online retail transactions for various countries for a store in the United Kingdom. It show the number of transactions made by individuals from specified countries.
 
 The data has the following columns:
@@ -32,7 +32,7 @@ The data has been visualized as follows:
 - A heat map that shows correlation in StockCode, Quantity, Price, Customer ID, Country
 - A histogram showing distribution of price vs Quantity
 
-#2. african_crises.csv
+<h3>2. african_crises.csv<h/3>
 
 The data shows the state of economy of thirteen African countries between the year 1870 to 2013.
 The data has the following columns:
@@ -54,7 +54,7 @@ The data has the following columns:
 
 
 
-#The data has been visualized as follows:
+</h3>The data has been visualized as follows:</h3>
 
 - Two Pi charts  showing state of banking crisis and state of independence
 - A heat map showing correlation in sovereign external debt, gross domestic product weighted default  and inflation annual consumer price index
@@ -62,9 +62,10 @@ The data has the following columns:
 - Scatter plot showing year vs exchange rate in US dollars
 
 
-#MACHINE LEARNING
+<h2>MACHINE LEARNING</h2>
 
-#African crises data was used for machine learning.
+<h5> Data set used:<h5>
+african_crises.csv
 
 - Two subsets used – exch_usd, inflation_annual_cpi
 - Method applied: Clustering
