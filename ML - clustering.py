@@ -15,7 +15,7 @@ array = subset.values
 X = array[:, 0:2] # no response y hence unsupervised
 
 from sklearn.cluster import KMeans
-model = KMeans(n_clusters=2, random_state =42) #we do four clusters
+model = KMeans(n_clusters=2, random_state =42) #we do two clusters
 model.fit_predict(X)
 print('Learning//Done')
 
@@ -29,7 +29,7 @@ print(dataframe)
 # who is this cluster
 #adding a column at the end
 subset['label'] = model.labels_
-subset = subset[subset['label'] == 2]
+subset = subset[subset['label'] == 3]
 print(subset)
 
 #generating excel worksheet
