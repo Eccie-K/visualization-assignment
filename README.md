@@ -73,7 +73,7 @@ african_crises.csv
 - Centronoids for calculating the mean for clusters
 - Generated an excel file to show the two columns.
 
-
-  exch_usd            inflation_annual_cpi<br>
-0  43.181605          8.438741e+01<br>
-1   0.002000          2.198970e+07<br>
+|            |        exch_usd      | inflation_annual_cpi, label |
+|------------|---------------|-------------------------------------
+|0           | 43.181605     |8.438741e+01                        |
+|1           | 0.002000      |2.198970e+07                        |
