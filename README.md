@@ -7,10 +7,10 @@ This project project uses two data sets. All the data sets have been visualized 
 
 <h2>VISUALIZATION</h2>
 
-<h5>Data sets used:</h5>
+<h3>Data sets used:</h3>
 
-<h3>1.online_retail.csv</h3>
-This data set has information for online retail transactions for various countries for a store in the United Kingdom. It show the number of transactions made by individuals from specified countries.
+<h4>1.online_retail.csv</h4>
+This data set has information for online retail transactions for various countries for a store in the United Kingdom. It shows the number of transactions made by individuals from specified countries.
 
 The data has the following columns:
 
@@ -23,7 +23,7 @@ The data has the following columns:
 7. Customer ID: Unique Identification of the customer
 8. Country: The country from which the transaction was made
 
-The data has been visualized as follows:
+<h5>The data has been visualized as follows:</h5>
 
 - Pi chart to show volume  in percentage of transactions per country.
 - Two graphs that show quantity of distribution of transactions in 2011, and in July of 2011
@@ -32,29 +32,29 @@ The data has been visualized as follows:
 - A heat map that shows correlation in StockCode, Quantity, Price, Customer ID, Country
 - A histogram showing distribution of price vs Quantity
 
-<h3>2. african_crises.csv<h/3>
+<h4>2. african_crises.csv</h4>
 
 The data shows the state of economy of thirteen African countries between the year 1870 to 2013.
 The data has the following columns:
 
-1.case: The order of countries in number i.e  case 1 is Angola
-2.cc3: Code of the country
-3.country: Names of the countries
-4.year: respective year
-5.systemic_crisis: 0 indicates crisis while 1 indicates no crisis
-6.exch_usd: Shows the exchange rate in US dollars
-7.domestic_debt_in_default: The domestic debt for particular countries
-8.sovereign_external_debt_default: External debt for particular countries
-9.gdp_weighted_default: gross domestic product
-10.inflation_annual_cpi: Inflation based on consumer price index
-11.independence: 0 indicates not inependent, 1 indicates independence
-12.currency_crises: 0 indicates crisis, 1 indicates no crisis
-13.inflation_crises: 0 indicates inflation crises, 1 indicates no crisis
-14.banking_crisis: 0 indicates banking crises, 1 indicates no crises
+1. case: The order of countries in number i.e  case 1 is Angola
+2. cc3: Code of the country
+3. country: Names of the countries
+4. year: respective year
+5. systemic_crisis: 0 indicates crisis while 1 indicates no crisis
+6. exch_usd: Shows the exchange rate in US dollars
+7. domestic_debt_in_default: The domestic debt for particular countries
+8. sovereign_external_debt_default: External debt for particular countries
+9. gdp_weighted_default: gross domestic product
+10. inflation_annual_cpi: Inflation based on consumer price index
+11. independence: 0 indicates not inependent, 1 indicates independence
+12. currency_crises: 0 indicates crisis, 1 indicates no crisis
+13. inflation_crises: 0 indicates inflation crises, 1 indicates no crisis
+14. banking_crisis: 0 indicates banking crises, 1 indicates no crises
 
 
 
-</h3>The data has been visualized as follows:</h3>
+</h5>The data has been visualized as follows:</h5>
 
 - Two Pi charts  showing state of banking crisis and state of independence
 - A heat map showing correlation in sovereign external debt, gross domestic product weighted default  and inflation annual consumer price index
